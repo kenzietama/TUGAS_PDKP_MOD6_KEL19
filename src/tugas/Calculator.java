@@ -146,7 +146,7 @@ class ScientificCalculator extends Calculator {
         enternumber();
         int power = getNumber()[0];
         System.out.println(basenumber + "^" + power);
-        System.out.println("Output = " + Math.pow(basenumber, power));
+        System.out.println("Output = " + Math.pow(basenumber, power) + "/n");
     }
     private int factoial() {
         ArrayList<Integer> arraynum = new ArrayList<>();
@@ -197,7 +197,7 @@ class ScientificCalculator extends Calculator {
             switch (option) {
                 case "1" -> {
                     enternumber();
-                    System.out.println("√" + getNumber()[0] + " = " + squareRoot());
+                    System.out.println("√" + getNumber()[0] + " = " + squareRoot() + "\n");
                     clear();
                     CalculatorApp.start();
                 }
@@ -208,25 +208,25 @@ class ScientificCalculator extends Calculator {
                 }
                 case "3" -> {
                     enternumber();
-                    System.out.println(getNumber()[0] + "! = " + factoial());
+                    System.out.println(getNumber()[0] + "! = " + factoial() + "\n");
                     clear();
                     CalculatorApp.start();
                 }
                 case "4" -> {
                     enternumber();
-                    System.out.println("sin " + getNumber()[0] + " = " + sin());
+                    System.out.println("sin " + getNumber()[0] + " = " + sin() + "\n");
                     clear();
                     CalculatorApp.start();
                 }
                 case "5" -> {
                     enternumber();
-                    System.out.println("cos " + getNumber()[0] + " = " + cos());
+                    System.out.println("cos " + getNumber()[0] + " = " + cos() + "\n");
                     clear();
                     CalculatorApp.start();
                 }
                 case "6" -> {
                     enternumber();
-                    System.out.println("tan " + getNumber()[0] + " = " + tan());
+                    System.out.println("tan " + getNumber()[0] + " = " + tan() + "\n");
                     clear();
                     CalculatorApp.start();
                 }
