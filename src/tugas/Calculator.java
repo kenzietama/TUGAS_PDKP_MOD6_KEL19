@@ -145,8 +145,7 @@ class ScientificCalculator extends Calculator {
         System.out.print("Enter power number: ");
         enternumber();
         int power = getNumber()[0];
-        System.out.println(basenumber + "^" + power);
-        System.out.println("Output = " + Math.pow(basenumber, power) + "/n");
+        System.out.println(basenumber + "^" + power + " Output = " + Math.pow(basenumber, power) + "\n");
     }
     private int factoial() {
         ArrayList<Integer> arraynum = new ArrayList<>();
